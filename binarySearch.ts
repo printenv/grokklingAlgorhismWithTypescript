@@ -2,10 +2,10 @@ const testData : number[] = [1,2,3,4,5,6,7,8,9.10]
 
 /**
  * Binary Search
- * O(logn)
- * @param data :number[]
- * @param search :number
+ * @param data: number[]
+ * @param search: number
  * @returns number
+ * Time Complexity: O(logn)
  */
 function binarySearch(data:number[], search:number){
     let lowIndex = 0
